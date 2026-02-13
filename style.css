@@ -1,0 +1,38 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+#menu button {
+    margin: 5px;
+    padding: 8px 15px;
+}
+
+#game {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background: #111;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+#player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: cyan;
+    left: 150px;
+    bottom: 40px;
+}
+
+.spike {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: red;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
